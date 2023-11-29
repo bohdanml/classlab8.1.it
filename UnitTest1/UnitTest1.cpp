@@ -13,13 +13,10 @@ namespace UnitTest1
     {
     public:
 
-        TEST_METHOD(TestChange)
-
+            TEST_METHOD(TestMethod1)
         {
-            char row[] = "neoniontonso";
-            int k = 4;
-            int t = Count(row);
-            Assert::AreEqual (t,k);
+            char* str = "n2o4no";
+            Assert::AreEqual(Count(str), 1);
         }
     };
 }
